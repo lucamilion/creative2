@@ -1,0 +1,56 @@
+.planetcard {
+    border-radius: 5px;
+    background-color: transparent;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.planetcard li {
+    color: #feda4a;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
+.planetcard h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+body {
+    background-image: url("/creative2/star_background_tile.jpeg");
+    background-size: auto;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    line-height: 150%;
+    font-size: 60px;
+}
+
+.form-style input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50px;
+    background: #feda4a;
+    font-weight: bold;
+    font-family: 'Pathway Gothic One', sans-serif;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid #917c29;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+.form-style input[type=submit]:hover {
+    background: #c7aa38;
+    color: white;
+}
